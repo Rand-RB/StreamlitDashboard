@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 def refresher(seconds):
-    dataset_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-muz2Bk67ZykK4qpwS5cXV8EomGeYOFKDJJH9l49jfHoZFUdDIKAAukdIYoMH5HA21aHD7NaRkFDU/pub?gid=0&single=true&output=csv"
+    dataset_url = "https://docs.google.com/spreadsheets/d/1iHN1L9raXKHEKPfE0ucxr4TDkIzkiDHf6_NbiS_47T4/edit?usp=sharing"
     # read csv from a URL
     @st.experimental_memo
     def get_data() -> pd.DataFrame:
