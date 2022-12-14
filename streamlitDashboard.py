@@ -76,6 +76,6 @@ def refresher(seconds):
         fig3 = px.line(data_frame=DateAVGWeight, y= "Total_Weight_g") #,x="Date"
         st.write(fig3)
         
-refresher(3)
+refresher(1)
 
 
